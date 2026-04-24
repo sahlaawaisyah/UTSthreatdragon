@@ -2,7 +2,7 @@
   "version": "2.6.0",
   "summary": {
     "title": "Threat Model PT FinData",
-    "owner": "Sahla",
+    "owner": "Sahla Awaisyah",
     "description": "Sistem ini menggambarkan akses fisik ke ruang server pada PT FinData yang menggunakan RFID dan biometrik, serta interaksi dengan server dan sistem monitoring dalam pengelolaan data nasabah.",
     "id": 0
   },
