@@ -10,7 +10,7 @@
     "contributors": [],
     "diagrams": [
       {
-        "id": 0,
+        "id": 2,
         "title": "DFD Data Center PT FinData",
         "diagramType": "STRIDE",
         "placeholder": "New STRIDE diagram description",
@@ -20,7 +20,7 @@
         "description": "Diagram alur akses fisik ke server dan monitoring system pada PT FinData"
       }
     ],
-    "diagramTop": 2,
+    "diagramTop": 3,
     "reviewer": "",
     "threatTop": 0
   }
