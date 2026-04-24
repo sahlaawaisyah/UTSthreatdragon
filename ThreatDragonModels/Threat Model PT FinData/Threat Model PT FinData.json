@@ -1,0 +1,27 @@
+{
+  "version": "2.6.0",
+  "summary": {
+    "title": "Threat Model PT FinData",
+    "owner": "Sahla",
+    "description": "Sistem ini menggambarkan akses fisik ke ruang server pada PT FinData yang menggunakan RFID dan biometrik, serta interaksi dengan server dan sistem monitoring dalam pengelolaan data nasabah.",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "DFD Data Center PT FinData",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.6.0",
+        "cells": [],
+        "description": "Diagram alur akses fisik ke server dan monitoring system pada PT FinData"
+      }
+    ],
+    "diagramTop": 2,
+    "reviewer": "",
+    "threatTop": 0
+  }
+}
