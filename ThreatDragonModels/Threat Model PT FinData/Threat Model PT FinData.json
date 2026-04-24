@@ -16,7 +16,881 @@
         "placeholder": "New STRIDE diagram description",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "version": "2.6.0",
-        "cells": [],
+        "cells": [
+          {
+            "position": {
+              "x": 110,
+              "y": 60.00000000000006
+            },
+            "size": {
+              "width": 170,
+              "height": 70
+            },
+            "attrs": {
+              "text": {
+                "text": "Cleaning Service"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "234d3848-4bf6-43c2-9c81-36b2cbfd0612"
+                },
+                {
+                  "group": "right",
+                  "id": "60c7eec6-7529-4316-ac66-15635161a09b"
+                },
+                {
+                  "group": "bottom",
+                  "id": "fe474cf7-7afa-4fea-a038-bd44019de7ec"
+                },
+                {
+                  "group": "left",
+                  "id": "5fddb790-f989-4f31-95b8-e0c441dac28c"
+                }
+              ]
+            },
+            "id": "374bbed6-bda8-4586-9dc2-5222862547a1",
+            "zIndex": 1,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Cleaning Service\n",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 250,
+              "y": 220
+            },
+            "size": {
+              "width": 130,
+              "height": 150
+            },
+            "attrs": {
+              "text": {
+                "text": "Sistem Akses Pintu"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "6ce14e60-327c-47ce-98fd-f841e4ecc8e2"
+                },
+                {
+                  "group": "right",
+                  "id": "a026a765-47c9-4dd0-bbfe-5c08f93e9cca"
+                },
+                {
+                  "group": "bottom",
+                  "id": "6dfa5a15-387b-466f-b963-1e7db327f60f"
+                },
+                {
+                  "group": "left",
+                  "id": "89ffed63-e55d-4ab7-b1ff-25aa54945dd2"
+                }
+              ]
+            },
+            "id": "9cbe51c2-d100-4289-9b7b-65d948e9fe63",
+            "zIndex": 2,
+            "data": {
+              "type": "tm.Process",
+              "name": "Sistem Akses Pint",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 440,
+              "y": 550
+            },
+            "size": {
+              "width": 150,
+              "height": 130
+            },
+            "attrs": {
+              "text": {
+                "text": "Sistem Monitoring"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "6ce14e60-327c-47ce-98fd-f841e4ecc8e2"
+                },
+                {
+                  "group": "right",
+                  "id": "a026a765-47c9-4dd0-bbfe-5c08f93e9cca"
+                },
+                {
+                  "group": "bottom",
+                  "id": "6dfa5a15-387b-466f-b963-1e7db327f60f"
+                },
+                {
+                  "group": "left",
+                  "id": "89ffed63-e55d-4ab7-b1ff-25aa54945dd2"
+                }
+              ]
+            },
+            "id": "df9d9267-86a1-47e4-8589-9221df8ba09a",
+            "zIndex": 3,
+            "data": {
+              "type": "tm.Process",
+              "name": "Sistem Monitorin",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 740,
+              "y": 280
+            },
+            "size": {
+              "width": 200,
+              "height": 80
+            },
+            "attrs": {
+              "text": {
+                "text": "Database Nasabah"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "8254367d-727a-44a5-8fec-c7c7e73a8211"
+                },
+                {
+                  "group": "right",
+                  "id": "7825319d-d50a-4768-9b1b-cc6e818f5970"
+                },
+                {
+                  "group": "bottom",
+                  "id": "28490c0a-c3ec-4442-b89d-193cff6569e2"
+                },
+                {
+                  "group": "left",
+                  "id": "ad1330f3-a87b-4816-8546-6bb603fa363d"
+                }
+              ]
+            },
+            "id": "7461effc-be33-431b-8257-ac8045b83911",
+            "zIndex": 4,
+            "data": {
+              "type": "tm.Store",
+              "name": "Database Nasaba",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 115,
+              "y": 480
+            },
+            "size": {
+              "width": 160,
+              "height": 140
+            },
+            "attrs": {
+              "text": {
+                "text": "Server System"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "6ce14e60-327c-47ce-98fd-f841e4ecc8e2"
+                },
+                {
+                  "group": "right",
+                  "id": "a026a765-47c9-4dd0-bbfe-5c08f93e9cca"
+                },
+                {
+                  "group": "bottom",
+                  "id": "6dfa5a15-387b-466f-b963-1e7db327f60f"
+                },
+                {
+                  "group": "left",
+                  "id": "89ffed63-e55d-4ab7-b1ff-25aa54945dd2"
+                }
+              ]
+            },
+            "id": "351bb026-4e2e-48ed-a2a6-239c74b6a685",
+            "zIndex": 5,
+            "data": {
+              "type": "tm.Process",
+              "name": "Server Syste",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Akses Ruang Serve",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Akses Ruang Server"
+            ],
+            "id": "18a35f5d-1874-4e9e-b517-84858c9b1512",
+            "source": {
+              "cell": "9cbe51c2-d100-4289-9b7b-65d948e9fe63",
+              "port": "89ffed63-e55d-4ab7-b1ff-25aa54945dd2"
+            },
+            "target": {
+              "cell": "351bb026-4e2e-48ed-a2a6-239c74b6a685",
+              "port": "6ce14e60-327c-47ce-98fd-f841e4ecc8e2"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Pengolahan Dat",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Pengolahan Data"
+            ],
+            "id": "eecfeeaf-9bfb-4a91-be09-edca4cbaf503",
+            "source": {
+              "cell": "351bb026-4e2e-48ed-a2a6-239c74b6a685",
+              "port": "a026a765-47c9-4dd0-bbfe-5c08f93e9cca"
+            },
+            "target": {
+              "cell": "7461effc-be33-431b-8257-ac8045b83911",
+              "port": "ad1330f3-a87b-4816-8546-6bb603fa363d"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "USB Malwar",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "USB Malware"
+            ],
+            "id": "6b6adfef-f65a-48ed-b910-7d36713bc4b3",
+            "source": {
+              "x": 280,
+              "y": 84
+            },
+            "target": {
+              "cell": "7461effc-be33-431b-8257-ac8045b83911",
+              "port": "ad1330f3-a87b-4816-8546-6bb603fa363d"
+            },
+            "vertices": [
+              {
+                "x": 430,
+                "y": 120
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Log Aktivitas Mencurigaka",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Log Aktivitas Mencurigakan"
+            ],
+            "id": "20d0c222-e40c-4416-93c4-4830a4d873c4",
+            "source": {
+              "cell": "7461effc-be33-431b-8257-ac8045b83911",
+              "port": "28490c0a-c3ec-4442-b89d-193cff6569e2"
+            },
+            "target": {
+              "cell": "df9d9267-86a1-47e4-8589-9221df8ba09a",
+              "port": "a026a765-47c9-4dd0-bbfe-5c08f93e9cca"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Akses Fisik RFID)",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Akses "
+            ],
+            "id": "3d5a794f-c120-44d0-8349-2b2f839d634b",
+            "source": {
+              "x": 208,
+              "y": 130
+            },
+            "target": {
+              "x": 308,
+              "y": 230
+            }
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": [
+                "374bbed6-bda8-4586-9dc2-5222862547a1"
+              ]
+            },
+            "labels": [
+              "Trust Boundary"
+            ],
+            "id": "3c675069-2a77-46a8-a9f1-b15693fc06a9",
+            "source": {
+              "x": 110,
+              "y": 170
+            },
+            "target": {
+              "x": 510,
+              "y": 60
+            },
+            "vertices": [
+              {
+                "x": 220,
+                "y": 220
+              }
+            ]
+          }
+        ],
         "description": "Diagram alur akses fisik ke server dan monitoring system pada PT FinData"
       }
     ],
